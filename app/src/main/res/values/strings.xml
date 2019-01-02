@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Glucose Rundown</string>
+    <string name="name">Name</string>
+    <string name="weightUnits">WeightUnits</string>
+    <string-array name="GENDERS">
+        <item>Select</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_home_screen">homeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_manage_readings">manageReadings</string>
+    <string name="title_activity_averages">averages</string>
+    <string name="title_activity_manage_settings">manageSettings</string>
+    <string name="title_activity_notification_settings">notificationSettings</string>
+</resources>

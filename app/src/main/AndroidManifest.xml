@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marty.myglucoserundown">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".homeScreen"
+            android:label="My Glucose Rundown"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".createNotification"
+            android:label="My Glucose Rundown" />
+        <activity
+            android:name=".notificationSettings"
+            android:label="Notification Settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="My Glucose Rundown"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".manageSettings"
+            android:label="Settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".setupPage"
+            android:label="My Glucose Rundown"/>
+
+        <activity android:name=".addReading"/>
+        <receiver android:name=".Notification_reciever"/>
+        <activity android:name=".Repeating_activity" />
+
+    </application>
+
+</manifest>
